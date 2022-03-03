@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SafeKeeper</string>
+    <string name="new_password_activity_error">You need to fill this field</string>
+    <string name="new_password_activity_create_data">Create data</string>
+    <string name="new_password_activity_update_data">Update data</string>
+    <string name="biometric_activity_notification">Set up a screen lock to keep your passwords safe</string>
+    <string name="button_biometric">Use Biometrics to Login</string>
+    <string name="item_password_title">Title</string>
+    <string name="item_password_username_email">Username/Email</string>
+    <string name="item_password_pass">Password</string>
+    <string name="item_password_description">Description</string>
+    <string name="password_item_list">Empty list</string>
+</resources>

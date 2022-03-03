@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeKeeper</string>
+    <string name="new_password_activity_error">Заполните поле</string>
+    <string name="new_password_activity_create_data">Создание данных</string>
+    <string name="new_password_activity_update_data">Обновление данных</string>
+    <string name="biometric_activity_notification">Для безопасного хранения Ваших паролей настройте блокировку экрана</string>
+    <string name="button_biometric">Используйте биометрию для входа</string>
+    <string name="item_password_title">Заголовок</string>
+    <string name="item_password_username_email">Имя пользователя/Электронная почта</string>
+    <string name="item_password_pass">Пароль</string>
+    <string name="item_password_description">Описание</string>
+    <string name="password_item_list">Пустой список</string>
+</resources>

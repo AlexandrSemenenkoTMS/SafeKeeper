@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NoActionBar" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/DeepSkyBlue</item>
+        <item name="colorPrimaryDark">@color/DeepSkyBlue</item>
+        <item name="colorOnPrimary">@color/White</item>
+        <item name="colorSecondary">@color/White</item>
+        <item name="colorSecondaryVariant">@color/Teal</item>
+        <item name="colorOnSecondary">@color/White</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CustomActionBar" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/DeepSkyBlue</item>
+        <item name="colorPrimaryDark">@color/DeepSkyBlue</item>
+        <item name="colorOnPrimary">@color/Black</item>
+        <item name="colorSecondary">@color/DeepSkyBlue</item>
+        <item name="colorSecondaryVariant">@color/Teal</item>
+        <item name="colorOnSecondary">@color/White</item>
+    </style>
+
+    <style name="Theme.Biometric" parent="Theme.MaterialComponents.Light">
+        <item name="actionBarStyle">@style/MyTheme.TransparentActionBar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTheme.TransparentActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="elevation" tools:targetApi="lollipop">0dp</item>
+        <item name="background">@color/Transparent</item>
+    </style>
+</resources>
